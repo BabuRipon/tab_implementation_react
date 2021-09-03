@@ -1,0 +1,51 @@
+.container{
+    display:flex;
+    margin:0 10px;
+}
+
+.content-slot{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex:9;
+  margin:10px 3px;
+  display:flex;
+}
+
+.add-button{
+    flex:1;
+    
+}
+
+.add-button h4{
+    border:1px solid #000;
+    text-align:center;
+    padding:10px 0;
+    font-size:20px;
+}
+
+.add-button h4:hover{
+    cursor:pointer;
+}
+
+.tab{
+  border:1px solid #000;
+  margin:0 2px;
+  padding:15px 30px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  transition:translateX(-20px) 1s linear;
+}
+
+.tab span{
+    position:absolute;
+    top:-2px;
+    right:10px;
+    font-size:18px;
+}
+
+.tab span:hover{
+    cursor: pointer;
+}
